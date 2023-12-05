@@ -8,7 +8,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        // 'showcase_bg': "url('/assets/images/showcase.png')",
+        'showcase_bg': "url('/src/assets/images/showcase.png')",
+        'bg_about_card': "url('/src/assets/images/team.png')",
       },
     },
   },

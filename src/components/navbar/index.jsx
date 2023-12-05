@@ -3,6 +3,14 @@ import { logo } from "../../assets/images";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+
+  const scrollsection = e => {
+    // window.scrollTo({
+    //   top: e.current.offsetTop,
+    //   behavior: 'smooth',
+    // })
+  }
+
   return (
     <nav className="py-[33px]">
       <div className="container flex item-center justify-between">
@@ -12,22 +20,22 @@ const Navbar = () => {
         <div>
           <ul className="flex items-center gap-[50px] text-lg text-white font-light">
             <li>
-              <Link to="#">Main</Link>
+              <Link to="#"  onClick={()=>scrollsection('showcase')}>Main</Link>
             </li>
             <li>
-              <Link to="#">Program</Link>
+              <Link to="#" onClick={()=>scrollsection('mentor')}>Program</Link>
             </li>
             <li>
-              <Link to="#">Our instructors</Link>
+              <Link to="#" onClick={()=>scrollsection('instructors')}>Our instructors</Link>
             </li>
             <li>
-              <Link to="#">Schedule</Link>
+              <Link to="#" >Schedule</Link>
             </li>
             <li>
-              <Link to="#">Reviews</Link>
+              <Link to="#" >Reviews</Link>
             </li>
             <li>
-              <Link to='#'>Contacts</Link>
+              <Link to='#' onClick={()=>scrollsection('contacts')}>Contacts</Link>
             </li>
           </ul>
         </div>

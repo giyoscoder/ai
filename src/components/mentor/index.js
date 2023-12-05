@@ -1,0 +1,27 @@
+import React from 'react'
+import {user_one, user_two, user_three, user_four} from '../../assets/images'
+
+const Mentor = () => {
+  return (
+    <div className='mt-[314px]'>
+    <div className='container'>
+        <p className='text-[70px] font-semibold text-white mb-[50px]'>Our instructors</p>
+        <div className='flex justify-between'>
+          <div className='bg-[#7CFE5B]  animate-pulse h-[136px] w-[136px] rounded-tl-[50px] translate-y-[-30px] rounded-br-[50px] place-self-end'/>
+          <div className='bg-[#C35DF5]  animate-pulse rounded-tl-[50px] rounded-br-[50px] inline-block'><img src={user_one} alt='user_one'/></div>
+          <div className='bg-[#7CFE5B] animate-pulse h-[136px] w-[136px] rounded-tl-[50px]  rounded-br-[50px]'/>
+          <div className='bg-white animate-pulse  rounded-tl-[50px] rounded-br-[50px] inline-block'><img src={user_two} alt='user_one'/></div>
+        </div>
+        <div className='flex justify-between pl-[100px] mt-[50px]'>
+          <div className='bg-[#C35DF5] animate-pulse animate-plse h-[67px] w-[67px] rounded-tl-[30px] rounded-br-[30px] place-self-end'/>
+          <div className='bg-white animate-pulse rounded-tl-[50px] rounded-br-[50px] inline-block '><img src={user_four} alt='user_one'/></div>
+          <div className='bg-[#7CFE5B] animate-pulse   rounded-tl-[50px] rounded-br-[50px] inline-block translate-y-[-100px]'><img src={user_three} alt='user_one'/></div>
+          <div className='bg-[#C35DF5]  animate-pulse h-[254px] w-[254px] rounded-tl-[50px] rounded-br-[50px] place-self-end'/>
+          <div className='bg-[#7CFE5B] animate-pulse h-[136px] w-[136px] rounded-tl-[50px] rounded-br-[50px] place-self-end'/>
+        </div>
+    </div>
+    </div>
+  )
+}
+
+export default Mentor
