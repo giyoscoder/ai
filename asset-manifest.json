@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/giyoscoder/ai/static/css/main.964ed0f1.css",
+    "main.js": "/giyoscoder/ai/static/js/main.2e744f44.js",
+    "static/media/showcase.png": "/giyoscoder/ai/static/media/showcase.fc674235c19330047a8f.png",
+    "static/media/Unbounded-VariableFont_wght.ttf": "/giyoscoder/ai/static/media/Unbounded-VariableFont_wght.f609e6853a60ba1285b6.ttf",
+    "static/media/team.png": "/giyoscoder/ai/static/media/team.ab56bbe5f5761574ae5b.png",
+    "static/media/user_three.png": "/giyoscoder/ai/static/media/user_three.315a9809ca02afcf3c24.png",
+    "static/media/circle_icon.png": "/giyoscoder/ai/static/media/circle_icon.fa6991f00187225cfaf3.png",
+    "static/media/user_four.png": "/giyoscoder/ai/static/media/user_four.666c3dcd7165a09c1c04.png",
+    "static/media/user_two.png": "/giyoscoder/ai/static/media/user_two.11f7940fd02815eb60b9.png",
+    "static/media/user_one.png": "/giyoscoder/ai/static/media/user_one.57ddf2bb49fe7d0e15c4.png",
+    "static/media/logo.svg": "/giyoscoder/ai/static/media/logo.384afc5922c133c8ca7857c001eb20fb.svg",
+    "index.html": "/giyoscoder/ai/index.html",
+    "main.964ed0f1.css.map": "/giyoscoder/ai/static/css/main.964ed0f1.css.map",
+    "main.2e744f44.js.map": "/giyoscoder/ai/static/js/main.2e744f44.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.964ed0f1.css",
+    "static/js/main.2e744f44.js"
+  ]
+}
