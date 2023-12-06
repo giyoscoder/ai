@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className='py-[100px]'>
         <div className='container'>
-         <div className='flex items-start justify-between'>
+         <div className='flex flex-col  items-center lg:flex-row md:-start  text-center  gap-[50px] lg:gap-0 justify-between'>
          <div>
             <img src={logo} alt='logo' />
           </div>
@@ -37,7 +37,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div>
+          <div className='order-1 md:order-none'>
             <p className='text-lg font-bold leading-4 tracking-[0.85px] text-white'>We are on social media</p>
             <div className='flex items-center gap-5 text-white mt-5'>
             <FaYoutube  size='22'/>

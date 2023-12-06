@@ -9,3 +9,7 @@
 .font-unbounded{
     font-family: 'Unbounded';
 }
+
+::-webkit-scrollbar{
+    display: none;
+}
