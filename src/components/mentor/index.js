@@ -5,7 +5,7 @@ const Mentor = () => {
   return (
     <div className='mt-[314px]'>
     <div className='container'>
-        <p className='text-3xl md:text-[70px] font-semibold text-white mb-[50px]'>Our instructors</p>
+        <p className='text-3xl md:text-[70px] font-semibold text-black mb-[50px]'>Our instructors</p>
         <div className='flex flex-wrap  justify-between'>
           <div className='bg-[#7CFE5B]  animate-pulse h-[56px] w-[56px] lg:h-[136px] lg:w-[136px]  rounded-tl-[16px] rounded-br-[16px] lg:rounded-tl-[50px] translate-y-[-30px] lg:rounded-br-[50px] place-self-end'/>
           <div className='bg-[#C35DF5]  w-[104px] h-[104px] lg:h-[254px] lg:w-[254px] animate-pulse rounded-tl-[50px] rounded-br-[50px] inline-block'><img src={user_one} alt='user_one'/></div>

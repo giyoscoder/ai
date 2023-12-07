@@ -3,11 +3,10 @@ import {Navbar, Showcase, About, Mentor, Login, Footer} from './components'
 
 const App = () => {
   return (
-    <div className='font-unbounded bg-black'>
+    <div className='font-unbounded bg-white text-black'>
       <Navbar/>
       <Showcase/>
       <About/>
-      <Mentor/>
       <Login />
       <Footer/>
     </div>

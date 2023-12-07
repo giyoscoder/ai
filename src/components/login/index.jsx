@@ -5,7 +5,6 @@ import { useForm } from 'react-hook-form';
 import { MdOutlineArrowRightAlt } from "react-icons/md";
 
 const Login = () => {
-  const contacts = React.useRef(null)
 
   const {register, handleSubmit,  formState: {errors}} = useForm({})
   const formSubmit = data => {
@@ -13,13 +12,13 @@ const Login = () => {
   }
 
   return (
-    <div id='contacts' ref={contacts} className='mt-[321px]'>
+    <div id='contacts' className='pt-[30px] mt-[300px]'>
         <div className="container">
             <div className="grid  lg:grid-cols-2 items-center gap-[120px]">
-              <div>
-                  <p className='text-3xl md:text-[70px] leading-[60px] text-white font-medium'>Are you with us?</p>
-                  <p className='text-lg md:text-3xl font-medium text-white mt-[30px] md:mt-[74px]'>Then please fill out the <span className='text-[#7CFE5B]'><Link to='#'> registration <br className='md:block'/> form</Link></span> for our bootcamp.</p>
-                  <div className='hidden md:flex'>
+              <div className='text-black'>
+                  <p className='text-3xl md:text-[70px] leading-[60px font-medium'>Are you with us?</p>
+                  <p className='text-lg md:text-3xl font-medium mt-[30px] md:mt-[74px]'>Then please fill out the <span className='text-[#7CFE5B]'><Link to='#'> registration <br className='md:block'/> form</Link></span> for our bootcamp.</p>
+                  <div className='hidden md:block'>
                     <img src={icon} alt="" className='h-[138px] w-[122px] block ml-auto' />
                     <img src={icon} alt="" className='h-[168px] w-[209px] mx-auto' />
                     <img src={icon} alt=""  className='h-[72px] w-[82px]'/>
@@ -49,7 +48,7 @@ const Login = () => {
                 </form>
               </div>
             </div>
-            <p className='mt-[176px] text-white text-[38px] md:text-8xl text-center font-medium tracking-[2.7px]'>Discover the Power of AI: Unleash Your Potential!</p>
+            <p className='mt-[176px] text-black text-[38px] md:text-8xl text-center font-medium tracking-[2.7px]'>Discover the Power of AI: Unleash Your Potential!</p>
         </div>
     </div>
   )
