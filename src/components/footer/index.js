@@ -13,14 +13,14 @@ const Footer = () => {
           </div>
           <div>
             <ul className='space-y-[20px] text-lg  font-light text-black'>
-              <li>
-                <Link  to='main' spy={true} smooth={true} >Main</Link>
+              <li className='cursor-pointer'>
+                <Link  to='main' spy={true} smooth={true} offset={-150}>Main</Link>
               </li>
-              <li>
-                <Link  to='main' spy={true} smooth={true} >Program</Link>
+              <li className='cursor-pointer'>
+                <Link  to='main' spy={true} smooth={true} offset={-150}>Program</Link>
               </li>
-              <li>
-                <Link  to='main' spy={true} smooth={true} >Our instructors</Link>
+              <li className='cursor-pointer'>
+                <Link  to='main' spy={true} smooth={true} offset={-150} >Our instructors</Link>
               </li>
             </ul>
           </div>

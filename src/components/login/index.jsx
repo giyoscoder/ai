@@ -27,7 +27,7 @@ const Login = () => {
               <div className='w-full'>
                 <form onSubmit={handleSubmit(formSubmit)} className='space-y-[22px] md:space-y-[48px]'>
                       <div>
-                        <input type='text' {...register('name', {required: {value: true, message:'Valid is requred!'}})} className='w-full rounded-[50px] p-[20px] md:p-[32px] bg-[#343538]' placeholder='Name'/>
+                        <input type='text' {...register('name', {required: {value: true, message:'Valid is requred!'}})} className='w-full rounded-[50px] p-[20px] md:p-[32px] bg-[#eee]' placeholder='Name'/>
                         <p className='text-red-500'>{errors.name?.message}</p>
                       </div>
                       <div>
@@ -35,15 +35,15 @@ const Login = () => {
                           checkEmail: event =>{
                             return event.includes('@') || 'Required with "@"'
                           }
-                        }})} className='w-full rounded-[50px] p-[20px] md:p-[32px] bg-[#343538]' placeholder='Email'/>
+                        }})} className='w-full rounded-[50px] p-[20px] md:p-[32px] bg-[#eee]' placeholder='Email'/>
                         <p className='text-red-500'>{errors.email?.message}</p>
                       </div>
                       <div>
-                        <input type='text' {...register('location', {required: {value: true, message:'Valid is requred!'}})} className='w-full rounded-[50px] p-[20px] md:p-[32px] bg-[#343538]' placeholder='Where do you live?'/>
+                        <input type='text' {...register('location', {required: {value: true, message:'Valid is requred!'}})} className='w-full rounded-[50px] p-[20px] md:p-[32px] bg-[#eee]' placeholder='Where do you live?'/>
                         <p className='text-red-500'>{errors.location?.message}</p>
                       </div>
                       <div>
-                        <button type='submit' className='flex items-center justify-center gap-3 bg-[#7CFE5B] text-black font-normal text-lg md:text-[22px] rounded-[50px] py-[30px] w-full  md:px-[89px]'>To participate <MdOutlineArrowRightAlt  size='24'/></button>
+                        <button type='submit' className='flex items-center justify-center gap-3 bg-blue-600 text-white font-normal text-lg md:text-[22px] rounded-[50px] py-[30px] w-full  md:px-[89px]'>To participate <MdOutlineArrowRightAlt  size='24'/></button>
                       </div>
                 </form>
               </div>
